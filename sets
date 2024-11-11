@@ -1,4 +1,27 @@
-
+   # create a set
+set1 = {1, 2, 3, 4, 5}
+set2 = set([3, 4, 5, 6, 7])
+print("Set 1:", set1)
+print("Set 2:", set2)
+      #adding elements in set
+set1 = {1, 2, 3, 4, 5}
+set2 = set([3, 4, 5, 6, 7]) 
+set1.add(6)
+print("After adding 6 to Set 1:", set1)
+      #Removing elements in set 
+set1 = {1, 2, 3, 4, 5}
+set2 = set([3, 4, 5, 6, 7])
+print("After removing 2 set1.remove(2)  
+       #discard an element
+set1 = {1, 2, 3, 4, 5}
+set2 = set([3, 4, 5, 6, 7])
+set1.discard(10)
+print("After discarding 10 from Set 1:", set1)
+       #clear
+set1 = {1, 2, 3, 4, 5}
+set2 = set([3, 4, 5, 6, 7])
+set2.clear()
+print("After clearing Set 2:", set2)
            #union set
 seta={1,2,3}
 setb={3,4,5}
@@ -9,51 +32,38 @@ seta={1,2,3}
 setb={3,4,5}
 intersectionset=seta.intersection(setb)
 print("intersection using intersection method:",intersectionset)
-
             #difference set
 seta={1,2,3}
 setb={3,4,5}
 differenceset=seta.difference(setb)
 print("difference using difference method:",differenceset)
-
              #subset
 seta={1,2,3,4,5,6}
 setb={3,4,5}
 print(setb.issubset(seta))
-
              #superset
 seta={1,2,3,4,5}
 setb={3,4,5}
 print(setb.issuperset(seta))
-
-
-      
              #symmetric
 seta={1,2,3}
 setb={3,4,5}
 symmetric_diff_operator=seta.difference_update(setb)
 print("symmetric difference using^ operator:",symmetric_diff_operator)
-
              #Asymmetric
 seta={1,2,3}
 setb={4,5,6}
 asymmetric_diff_operator=seta.difference_update(setb)
 print("asymmetric using difference update method:",asymmetric_diff_operator)
-    #list
-list1=[1,2,3,4]
-list2=[11,23,45]
-list3=[list1,list2]
-print(list3)
-      
-
-        #tuple
-a=(1,2,3,4)
-print(a)
-     
-     #disjoint
+             #disjoint
 seta={1,2,3}
 setb={4,5}
 print("are seta and setb are disjoint:",seta.isdisjoint(setb))
+         # Creating a frozenset
+frozen_set = frozenset([1, 2, 3, 4])
+print("Frozen Set:", frozen_set)
+
+
       
 
 
