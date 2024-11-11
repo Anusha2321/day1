@@ -1,0 +1,51 @@
+     # Creating a tuple
+tuple1 = (1, 2, 3, 4, 5)
+tuple2 = ("apple", "banana", "cherry"
+print("Tuple 1:", tuple1)
+print("Tuple 2:", tuple2)
+          #Accesing  elements
+print("First element of Tuple 1:", tuple1[0])
+print("Last element of Tuple 2:", tuple2[-1])
+        #single element
+single_element_tuple = (10,)
+not_a_tuple = (10)
+print("Single element tuple:", single_element_tuple)
+print("Not a tuple:", not_a_tuple)  
+    # Unpacking a tuple
+coordinates = (10, 20, 30)
+x, y, z = coordinates
+print("X:", x, "Y:", y, "Z:", z)
+
+   # Concatenating tuples
+
+tuple_a = (1, 2, 3)
+tuple_b = (4, 5, 6)
+concatenated_tuple = tuple_a + tuple_b
+print("Concatenated tuple:", concatenated_tuple)
+
+      # Checking for Elements in a Tuple
+
+fruits = ("apple", "banana", "cherry")
+print("Is 'apple' in fruits?", "apple" in fruits)
+print("Is 'grape' in fruits?", "grape" in fruits)
+
+# Finding the Length, Maximum, and Minimum of a Tuple
+
+numbers = (10, 20, 30, 40, 50)
+print("Length of numbers:", len(numbers))
+print("Maximum in numbers:", max(numbers))
+print("Minimum in numbers:", min(numbers))
+
+   # Count and Index Methods
+
+tuple_c = (1, 2, 2, 3, 4, 5, 2)
+print("Count of 2 in tuple_c:", tuple_c.count(2))
+print("Index of first 2 in tuple_c:", tuple_c.index(2))
+  
+# Tuple to list
+tuple_d = (100, 200, 300)
+list_d = list(tuple_d)
+print("List converted from tuple:", list_d)
+
+
+
