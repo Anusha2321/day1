@@ -1,1 +1,16 @@
 
+
+i=5
+j=6
+s="HelloWorld"
+print("Hello World")
+print(i+j)
+print(len(s))
+if i>j:
+    print("I is Greater")
+
+else:
+    print("J is Greater")
+a=10
+for a in range(0,5):
+    print(a[s])
