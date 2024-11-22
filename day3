@@ -82,7 +82,7 @@ elif binb>bina and binb>binc:
     print("Greatest is", b)
 else:
     print("Greatest is", c)
-    #greatest numbers wiyh initalize
+    #greatest numbers  initalize
  
 bina=int(input("enter the number" ))
 binb=int(input("enter the number"))
